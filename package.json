@@ -1,0 +1,45 @@
+{
+  "name": "next-app-redux",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged",
+     "test": "jest --watch",
+    "test:ci": "jest --ci",
+    "pre-push": "npm run lint:js"
+  },
+   "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run pre-push"
+    }
+  },
+  "lint-staged": {
+    ".js": [
+      "npm run lint:fix",
+      "npm run lint",
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@redux-devtools/extension": "^3.2.5",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "next": "13.3.0",
+    "next-redux-wrapper": "^8.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}
