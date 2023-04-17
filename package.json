@@ -37,11 +37,12 @@
     "redux-thunk": "^2.4.2"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^13.3.0",
     "@redux-devtools/extension": "^3.2.5",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
-    "@next/eslint-plugin-next": "^13.3.0",
     "eslint-config-prettier": "^8.8.0",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "sass": "^1.62.0"
   }
 }

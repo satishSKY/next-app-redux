@@ -6,6 +6,8 @@ import {
     resetCount
 } from 'shared/redux/commonActions/commonActions';
 
+import variables from './Counter.module.scss';
+
 function Counter() {
     const { counter } = useSelector((state) => state?.sharedInfo);
     const dispatch = useDispatch();
@@ -16,19 +18,9 @@ function Counter() {
         }
     });
 
-    const [abc, setAbc] = useState('');
-
-    useEffect(() => {
-        if (abc === 'abc') {
-            setAbc('ddd');
-        }
-    });
-
-    var a = 'abc';
-
     return (
         <div>
-            <h1>
+            <h1 className={variables.heading}>
                 Count: <span>{counter}</span>
             </h1>
             <button onClick={() => dispatch(incrementCount())}>+1</button>
