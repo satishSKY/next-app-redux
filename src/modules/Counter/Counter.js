@@ -18,6 +18,8 @@ function Counter() {
         }
     });
 
+    const temp = 'hi';
+
     return (
         <div>
             <h1 className={variables.heading}>

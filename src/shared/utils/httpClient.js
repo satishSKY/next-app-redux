@@ -1,4 +1,4 @@
-import { getBaseUrl } from 'shared/utils/utils';
+import { getBaseUrl } from 'shared/utils';
 
 export const METHODS = {
     GET: 'GET', //DEFAULT
