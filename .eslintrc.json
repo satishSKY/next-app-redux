@@ -27,7 +27,7 @@
       }
     ],
     "class-methods-use-this": "off",
-    "no-nested-ternary": "off",
+    "no-nested-ternary": "error",
     "no-underscore-dangle": "off",
     "consistent-return": "off",
     "react-hooks/rules-of-hooks": "error",
@@ -60,6 +60,10 @@
         "args": "after-used"
       }
     ],
-    "react/display-name": "off"
+    "react/display-name": "off",
+    "no-var":"error",
+    "react/require-default-props":1,
+    "react/jsx-no-bind":1,
+    "react/no-danger-with-children":2
   }
 }
