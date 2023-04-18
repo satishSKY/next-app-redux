@@ -18,16 +18,23 @@ function Counter() {
         }
     });
 
-    const temp = 'hi';
-
+    const handleIncrementCount = () => {
+        dispatch(incrementCount());
+    };
+    const handleDecrementCount = () => {
+        dispatch(decrementCount());
+    };
+    const handleResetCount = () => {
+        dispatch(resetCount());
+    };
     return (
         <div>
             <h1 className={variables.heading}>
                 Count: <span>{counter}</span>
             </h1>
-            <button onClick={() => dispatch(incrementCount())}>+1</button>
-            <button onClick={() => dispatch(decrementCount())}>-1</button>
-            <button onClick={() => dispatch(resetCount())}>Reset</button>
+            <button onClick={handleIncrementCount}>+1</button>
+            <button onClick={handleDecrementCount}>-1</button>
+            <button onClick={handleResetCount}>Reset</button>
         </div>
     );
 }

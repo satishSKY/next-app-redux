@@ -63,7 +63,7 @@
     "react/display-name": "off",
     "no-var":"error",
     "react/require-default-props":1,
-    "react/jsx-no-bind":1,
+    "react/jsx-no-bind":0,
     "react/no-danger-with-children":2
   }
 }
