@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "key": "$base-border-color",
+      "value": "rgba(90, 101, 115, 1)"
+    },
+    {
+      "key": "$base-focus-color",
+      "value": "rgba(222, 222, 222, 1)"
+    },
+    {
+      "key": "$base-focus-bg",
+      "value": "rgba(40, 43, 46, 1)"
+    },
+    {
+      "key": "$base-border-radius",
+      "value": "0"
+    },
+    {
+      "key": "$datagrid-columnchooser-item-color",
+      "value": "rgba(189, 186, 186, 1)"
+    },
+    {
+      "key": "$datagrid-drag-header-border-color",
+      "value": "rgba(90, 101, 115, 1)"
+    },
+    {
+      "key": "$datagrid-selection-bg",
+      "value": "rgba(40, 43, 46, 1)"
+    },
+    {
+      "key": "$datagrid-row-focused-color",
+      "value": "rgba(222, 222, 222, 1)"
+    },
+    {
+      "key": "$datagrid-row-focused-bg",
+      "value": "rgba(40, 43, 46, 1)"
+    },
+    {
+      "key": "$datagrid-focused-border-color",
+      "value": "rgba(90, 101, 115, 1)"
+    },
+    {
+      "key": "$datagrid-row-alternation-bg",
+      "value": "rgba(51, 55, 59, 1)"
+    },
+    {
+      "key": "$datagrid-hover-bg",
+      "value": "rgba(40, 43, 46, 1)"
+    },
+    {
+      "key": "$datagrid-group-row-color",
+      "value": "rgba(222, 222, 222, 1)"
+    },
+    {
+      "key": "$datagrid-group-row-bg",
+      "value": "rgba(51, 55, 59, 1)"
+    },
+    {
+      "key": "$tabs-tab-bg",
+      "value": "rgba(42, 42, 42, 1)"
+    },
+    {
+      "key": "$tabs-focused-border-color",
+      "value": "rgba(90, 101, 115, 1)"
+    },
+    {
+      "key": "$button-default-color",
+      "value": "rgba(255, 255, 255, 1)"
+    },
+    {
+      "key": "$button-group-default-selected-color",
+      "value": "rgba(255, 255, 255, 1)"
+    },
+    {
+      "key": "$button-default-bg",
+      "value": "rgba(1, 85, 182, 1)"
+    },
+    {
+      "key": "$button-group-default-selected-bg",
+      "value": "rgba(1, 85, 182, 1)"
+    },
+    {
+      "key": "$button-default-border-color",
+      "value": "rgba(1, 85, 182, 1)"
+    },
+    {
+      "key": "$button-normal-color",
+      "value": "rgba(255, 255, 255, 1)"
+    },
+    {
+      "key": "$button-group-normal-selected-color",
+      "value": "rgba(255, 255, 255, 1)"
+    },
+    {
+      "key": "$button-normal-bg",
+      "value": "rgba(78, 76, 78, 1)"
+    },
+    {
+      "key": "$button-group-normal-selected-bg",
+      "value": "rgba(78, 76, 78, 1)"
+    },
+    {
+      "key": "$button-normal-border-color",
+      "value": "rgba(78, 76, 78, 1)"
+    }
+  ],
+  "baseTheme": "generic.dark",
+  "outputColorScheme": "custom-scheme",
+  "makeSwatch": false,
+  "version": "22.2.5",
+  "widgets": [],
+  "removeExternalResources": false
+}
